@@ -22,6 +22,10 @@ class Song
      Song.new_by_name(name)
    end
 
+   def self.find_by_name(name)
+     @@all.find{|song|song.name == name}
+   end 
+   
 
   def save
     self.class.all << self
