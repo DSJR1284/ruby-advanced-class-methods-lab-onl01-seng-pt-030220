@@ -44,6 +44,10 @@ class Song
         song
    end
 
+   def self.create_by_filename(name)
+     Song.new_by_filename(name)
+   end
+
 
 
   def save
