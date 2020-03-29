@@ -48,9 +48,9 @@ class Song
      Song.new_from_filename(name)
    end
 
-    def self.destroy_all 
+    def self.destroy_all
       @@all.clear
-    end 
+    end
 
 
   def save
